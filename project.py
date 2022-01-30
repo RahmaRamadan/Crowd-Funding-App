@@ -1,12 +1,11 @@
 import time
-# global variables
-# login_email_input = user.login_email_input
 from user import getLoginValid
+
+# global variables
 login_valid = getLoginValid()
 total_valid = False
 projectData_valid = False
 search_input_project = False
-
 
 class Projects:
     def __init__(self, title, details, total_budget, start_date, end_date):
